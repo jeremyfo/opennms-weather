@@ -23,4 +23,6 @@ To add the weather panel to the top of the right column the code would look like
 ![weather.py screenshot](https://raw.githubusercontent.com/jeremyfo/opennms-weather/master/SCREENSHOT.PNG)
 
 ## Issues
-Please report issues on the issue tracker or contact jeremyfo@gmail.com 
+This script has been tested against OpenNMS Horizon 16 and Horizon 17. After each OpenNMS upgrade you will need to add the code block back to `index.jsp`
+
+Please report issues on the issue tracker or contact jeremyfo@gmail.com
