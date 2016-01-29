@@ -1,6 +1,6 @@
 # weather.py
 
-OpenNMS (http://opennms.org) is the world’s first enterprise grade network management application platform developed under the open source model. This python script will display weather data on the OpenNMS home page.
+[OpenNMS](http://opennms.org) is the world’s first enterprise grade network management application platform developed under the open source model. This python script will display weather data and a radar map on the OpenNMS home page.
 
 ## Install
 1. Setup a developer api key on wunderground http://www.wunderground.com/weather/api
@@ -9,6 +9,11 @@ OpenNMS (http://opennms.org) is the world’s first enterprise grade network man
 4. Create a cronjob that will run the weather.py script periodically `*/10 * * * * /bin/python /opt/opennms/bin/weather.py > /dev/null 2>&1`
 5. Edit `/opt/opennms/jetty-webapps/opennms/index.jsp` and add the below block of code.
 ```
+<!-- weather box -->
+<jsp:include page="/includes/weather.jsp" flush="false" />
+```
+To add the weather panel to the top of the right column the code would look like
+```
 <!-- Right Column -->
         <div class="col-md-3" id="index-contentright">
                 <!-- weather box -->
@@ -16,3 +21,6 @@ OpenNMS (http://opennms.org) is the world’s first enterprise grade network man
 ```
 ## Screenshot
 ![weather.py screenshot](https://raw.githubusercontent.com/jeremyfo/opennms-weather/master/SCREENSHOT.PNG)
+
+## Issues
+Please report issues on the issue tracker or contact jeremyfo@gmail.com 
