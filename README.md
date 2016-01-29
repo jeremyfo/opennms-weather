@@ -15,3 +15,4 @@ OpenNMS http://opennms.org is the world’s first enterprise grade network manag
                 <jsp:include page="/includes/weather.jsp" flush="false" />
 ```
 ## Screenshot
+![weather.py screenshot](https://raw.githubusercontent.com/jeremyfo/opennms-weather/master/SCREENSHOT.PNG)
