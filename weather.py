@@ -88,6 +88,6 @@ for alert in myAlerts['alerts']:
     myFile.write('<li><font color=red>' + Alert + '</font></li>' + '\n')
 myFile.write('<li>' + obsv + '</li></ul>' + '\n')
 myFile.write('<hr>' + '\n')
-myFile.write('<img src="/opennms/includes/radar.gif">' + '\n')
+myFile.write('<center><img src="/opennms/includes/radar.gif"></center>' + '\n')
 myFile.write(html_bot + '\n')
 myFile.close()
