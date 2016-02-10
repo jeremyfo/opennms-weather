@@ -26,3 +26,11 @@ To add the weather panel to the top of the right column the code would look like
 This script has been tested against OpenNMS Horizon 16 and Horizon 17. After each OpenNMS upgrade you will need to add the code block back to `index.jsp`
 
 Please report issues on the issue tracker or contact jeremyfo@gmail.com
+
+## FAQ
+**How do you set the size and radius of the Radar Image?**
+In order to modify the radius and size of the radar image modify `radar_req_url` and set the width, height, and radius in the URL.
+Example: `...width=450&height=450&radius=100`
+
+**Where can I find more information about weather.py?**
+![Tarus Balog's Blog Post](http://www.adventuresinoss.com/2016/02/01/add-a-weather-widget-to-opennms-home-screen/)
