@@ -33,4 +33,4 @@ In order to modify the radius and size of the radar image modify `radar_req_url`
 Example: `...width=450&height=450&radius=100`
 
 **Where can I find more information about weather.py?**
-![Tarus Balog's Blog Post](http://www.adventuresinoss.com/2016/02/01/add-a-weather-widget-to-opennms-home-screen/)
+![Tarus Balog's Blog Post](https://www.adventuresinoss.com/2016/02/01/add-a-weather-widget-to-opennms-home-screen/)
