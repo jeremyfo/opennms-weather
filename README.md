@@ -1,3 +1,7 @@
+## Weather Underground API is no longer free - https://apicommunity.wunderground.com/weatherapi/topics/end-of-service-for-the-weather-underground-api.
+
+## Please see a new version of this script that uses weather.gov api. https://github.com/jeremyfo/opennms-weather-v2
+
 # weather.py
 
 [OpenNMS](http://opennms.org) is the world’s first enterprise grade network management application platform developed under the open source model. This python script will display weather data and a radar map on the OpenNMS home page.
